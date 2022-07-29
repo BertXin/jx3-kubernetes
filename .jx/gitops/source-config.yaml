@@ -8,7 +8,9 @@ spec:
     provider: https://github.com
     providerKind: github
     repositories:
+    - name: golang-http
     - name: jenkins-cwp-quickstart
+    - name: jenkins-quickstart
     scheduler: in-repo
   slack:
     channel: '#jenkins-x-pipelines'
